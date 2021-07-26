@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <h1>Rock, Paper and Scissors game</h1>
+
+    <a class="button3" onclick="location.reload()">Restart Game</a>
+
+    <h2>Please select your choice:</h2>
+    <div class="row">
+        <div class="column" >
+          <h3>Scissors</h3>
+           <img src="images/fadilah-n-imani-2HkXcDPnGh4-unsplash.jpg" alt="Snow" width="250" height="250" id="scissors" onclick="rockpaperscissors('scissors')">
+            </div>
+        <div class="column">
+            <h3>Paper</h3>
+          <img src="images/fadilah-n-imani-AnYg7fO8-m8-unsplash.jpg" alt="Forest" width="250" height="250" id="paper" onclick="rockpaperscissors('paper')">
+        </div>
+        <div class="column">
+            <h3>Rock</h3>
+          <img src="images/fadilah-n-imani-sYEyCLSWSY4-unsplash.jpg" alt="Mountains" width="250" height="250" id="rock" onclick="rockpaperscissors('rock')">
+        </div>
+      </div>
+      <p id="sub_title">Photo Credits - Fadilah N. Imani - Unsplash</p>
+    <div>
+        <br>
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-0pky" colspan="2" style="font-weight: bold">Score: </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0pky" style="font-weight: bold">Human</td>
+              <td class="tg-0pky" style="font-weight: bold">Computer</td>
+            </tr>
+            <tr>
+              <td class="tg-0pky"><p id="human">0</p></td>
+              <td class="tg-0pky"><p id="computer">0</p></td>
+            </tr>
+          </tbody>
+          </table>
+    </div>
+
+    <table class="tg">
+      <thead>
+        <tr>
+          <th class="tg-0pky" style="font-weight: bold">Historic log: </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tg-0lax"><p id="result"></p></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+
+/* CSS */
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  }
+  
+  .column:hover {
+    -webkit-filter: blur(5px);
+  }
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #sub_title{
+      font-size: xx-small;
+      font-style: italic;
+  }
+  #win{
+    background-color: green;  
+    color:white;
+  }
+  #lose{
+    background-color: red;  
+    color:white;
+  }
+
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-bottom-width:1px;border-color:#9ABAD9;border-style:solid;border-top-width:1px;
+  border-width:1px;color:rgb(0, 0, 0);font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#409cff;border-bottom-width:1px;border-color:#9ABAD9;border-style:solid;border-top-width:1px;
+  border-width:1px;color:rgb(0, 0, 0);font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{text-align:center;vertical-align:top;border-color:#000000}
+.tg .tg-0lax{text-align:center}
+
+/*GROW*/
+.grow img {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 37%;
+  height: 37%;
+}
+
+
+/*BLUR*/
+.blur img {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.blur img:hover {
+  -webkit-filter: blur(5px);
+}
